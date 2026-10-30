@@ -1,0 +1,220 @@
+성<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김보성 교수 - 공학심리학 & 미래교육 연구자</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#1e3a8a', // Deep academic blue
+                        secondary: '#3b82f6',
+                        accent: '#f59e0b', // Warm tone for emotion science
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 leading-relaxed selection:bg-secondary selection:text-white">
+
+    <!-- Hero Section -->
+    <header class="relative bg-white overflow-hidden shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-24 md:py-32 flex flex-col md:flex-row items-center justify-between gap-12">
+            <div class="w-full md:w-2/3 z-10">
+                <div class="inline-block px-4 py-2 bg-blue-100 text-primary rounded-full text-sm font-semibold mb-6 shadow-sm">
+                    Researcher & Educator
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6 leading-tight">
+                    사람과 기술, 그리고 <br class="hidden md:block"/>
+                    <span class="text-primary">미래 교육</span>을 잇는 연구자
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl font-light">
+                    인간의 마음을 이해하는 과학적 접근을 바탕으로, 더 나은 미래 교육의 방향을 고민하고 실천합니다.
+                </p>
+                <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-primary hover:bg-blue-900 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+                    연락하기 <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+            
+            <!-- Profile Image Placeholder -->
+            <div class="w-full md:w-1/3 flex justify-center z-10">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 bg-white shadow-2xl">
+                    <img src="https://placehold.co/400x400/e2e8f0/64748b?text=Profile+Image" alt="OOO 교수" class="w-full h-full object-cover rounded-full">
+                </div>
+            </div>
+            
+            <!-- Decorative Background Element -->
+            <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-50 opacity-50 blur-3xl"></div>
+        </div>
+    </header>
+
+    <!-- Profile Summary Cards -->
+    <section class="max-w-6xl mx-auto px-6 py-16 -mt-10 relative z-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <div class="w-12 h-12 bg-blue-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fas fa-university"></i>
+                </div>
+                <h3 class="text-sm text-slate-500 font-semibold mb-1 uppercase tracking-wider">현(現) 소속</h3>
+                <p class="text-xl font-bold text-slate-900">동의대학교 교수</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="text-sm text-slate-500 font-semibold mb-1 uppercase tracking-wider">전공</h3>
+                <p class="text-xl font-bold text-slate-900">공학심리학</p>
+                <p class="text-sm text-slate-500 mt-1">Engineering Psychology</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="text-sm text-slate-500 font-semibold mb-1 uppercase tracking-wider">전문 분야</h3>
+                <p class="text-xl font-bold text-slate-900">감성과학</p>
+                <p class="text-sm text-slate-500 mt-1">Emotion Science</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 class="text-sm text-slate-500 font-semibold mb-1 uppercase tracking-wider">주요 연구</h3>
+                <p class="text-xl font-bold text-slate-900">미래교육</p>
+                <p class="text-sm text-slate-500 mt-1">Future Education</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">About Me</h2>
+                <div class="w-24 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="space-y-16">
+                <!-- Point 1 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/3 flex-shrink-0">
+                        <h3 class="text-xl font-bold text-slate-900 leading-snug">
+                            "인간을 향한 따뜻한 시선,<br/>
+                            <span class="text-primary">공학심리학에서 감성과학으로</span>"
+                        </h3>
+                    </div>
+                    <div class="md:w-2/3 text-slate-600 space-y-4">
+                        <p>
+                            저는 <strong>공학심리학</strong>을 전공하여 인간의 인지적, 심리적 특성이 기술 및 시스템과 어떻게 상호작용하는지 깊이 있게 탐구해 왔습니다. 
+                        </p>
+                        <p>
+                            고도화된 기술 사회일수록 결국 중심이 되어야 하는 것은 '사람'이라는 철학 아래, 최근에는 <strong>감성과학 전문가</strong>로 활동 영역을 넓혀가고 있습니다. 인간의 감성과 경험을 과학적으로 분석하고, 이를 바탕으로 삶의 질을 높이는 연구를 수행합니다.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-slate-200">
+
+                <!-- Point 2 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/3 flex-shrink-0">
+                        <h3 class="text-xl font-bold text-slate-900 leading-snug">
+                            "내일을 준비하는 연구,<br/>
+                            <span class="text-primary">미래 교육을 디자인하다</span>"
+                        </h3>
+                    </div>
+                    <div class="md:w-2/3 text-slate-600 space-y-4">
+                        <p>
+                            제 연구의 또 다른 핵심 축은 <strong>'교육'</strong>입니다. 급변하는 시대 속에서 우리 학생들에게 필요한 진정한 교육은 무엇일까요?
+                        </p>
+                        <p>
+                            저는 이 질문에 대한 답을 찾기 위해 미래교육 연구자로서 끊임없이 고민하고 있습니다. 기술의 발전이 가져올 교육 환경의 변화를 예측하고, 인간의 감성과 창의성을 극대화할 수 있는 새로운 교육 패러다임을 제시하고자 합니다.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-slate-200">
+
+                <!-- Point 3 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/3 flex-shrink-0">
+                        <h3 class="text-xl font-bold text-slate-900 leading-snug">
+                            "연구실을 넘어<br/>
+                            <span class="text-primary">교육의 현장으로</span>"
+                        </h3>
+                    </div>
+                    <div class="md:w-2/3 text-slate-600 space-y-4">
+                        <p>
+                            현재는 <strong>동의대학교 교수</strong>로서 강단에 서며, 제 연구와 고민의 결과를 학생들과 직접 나누고 있습니다. 
+                        </p>
+                        <p>
+                            학문적 이론을 전달하는 것을 넘어, 학생들이 미래 사회를 주도할 수 있는 따뜻한 감성과 날카로운 이성을 갖춘 인재로 성장할 수 있도록 돕는 조력자가 되고자 합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="py-24 bg-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
+        <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+            <i class="fas fa-quote-left text-4xl md:text-6xl text-blue-400 opacity-50 mb-6"></i>
+            <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8">
+                "기술의 발전 속에서도<br> 인간의 감성을 잃지 않는 <span class="text-accent">미래 교육</span>을 만들어갑니다."
+            </h2>
+            <p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto font-light leading-relaxed">
+                공학심리학의 분석적 시각, 감성과학의 따뜻한 이해, 그리고 교육을 향한 열정을 융합하여 의미 있는 학문적 성과를 이루어 내겠습니다. 학계와 교육 현장 모두에 긍정적인 변화를 이끌어내는 연구자이자 교육자가 되겠습니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <h3 class="text-white text-2xl font-bold mb-2">OOO 교수</h3>
+                <p>동의대학교 · 공학심리학 & 감성과학 전문가</p>
+            </div>
+            
+            <div class="flex flex-col md:items-end gap-2">
+                <a href="mailto:bkim@g.deu.ac.kr" class="hover:text-white transition-colors flex items-center gap-2">
+                    <i class="fas fa-envelope"></i> bkim@g.deu.ac.kr
+                </a>
+                <p class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i> 부산광역시 부산진구 엄광로 176 동의대학교
+                </p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-8 border-t border-slate-800 text-center text-sm">
+            <p>&copy; 2026 OOO. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
